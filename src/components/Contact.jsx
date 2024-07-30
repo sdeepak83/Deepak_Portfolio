@@ -1,38 +1,37 @@
 import React from 'react'
-import emailjs from '@emailjs/browser';
-import { useState } from 'react';
-import { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
 
-    let [sucess, setsucess] = useState("")
-    const form = useRef();
+    // let [sucess, setsucess] = useState("")
+    // const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
 
 
-        emailjs
-            .sendForm('service_nerhfpt', 'template_1jkdnte', form.current, {
-                publicKey: 'tT0ae4b0HjUffLjAJ',
-            })
-            .then(
-                () => {
-
-                    setsucess("Email send sucess fully")
-                    form.current.reset();
 
 
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
-    };
+    //     emailjs
+    //         .sendForm('service_nerhfpt', 'template_1jkdnte', form.current, {
+    //             publicKey: 'tT0ae4b0HjUffLjAJ',
+    //         })
+    //         .then(
+    //             () => {
+
+    //                 setsucess("Email send sucess fully")
+    //                 form.current.reset();
+
+
+    //             },
+    //             (error) => {
+    //                 console.log('FAILED...', error.text);
+    //             },
+    //         );
+    // };
     return (
-        <form ref={form}>
+        <form >
             <div className=' text-white max-w-7xl mx-auto pb-20'>
                 <h1 className=' text-6xl text-white font-semibold text-center py-24 font-Sevillana'>Contact</h1>
                 <div className=' flex flex-col gap-5 pr-80 pl-28 '>
@@ -47,7 +46,7 @@ const Contact = () => {
 
 
                     <button
-                        onClick={sendEmail}
+                        // onClick={sendEmail}
                         type="submit"
                         className=' w-full bg-purple-800  rounded-md py-3 hover:bg-purple-950 text-lg font-semibold'
                     >
