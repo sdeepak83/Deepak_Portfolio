@@ -27,19 +27,20 @@ const Project = () => {
         <div>
 
             <h1 className=' text-6xl text-white font-semibold text-center pb-24 font-Sevillana'>Projects</h1>
-            <div className=' bg-black  max-w-7xl mx-auto grid grid-cols-2 gap-10 '>
+            <div className=' bg-black  w-full pl-20 flex flex-wrap gap-10 '>
 
 
-                <div className=' h-auto w-[100%]  bg-white pb-0 flex flex-col rounded-lg'>
+                <div className=' h-auto w-[48%]  bg-white pb-0 flex flex-col rounded-lg'>
 
                     <SimpleImageSlider
-                        width={658}
+                        width={688}
                         height={400}
                         images={JobPortelimages}
                         showNavs={true}
                         showBullets={true}
                         loop={true}
                         autoPlay={true}
+                        className="w-full"
                     />
                     <div className=' bg-purple-800 text-white mt-4 py-3 hover:bg-purple-900'>
                         <div className='flex justify-between px-12 '>
@@ -54,10 +55,10 @@ const Project = () => {
                 </div>
 
 
-                <div className=' h-auto w-[100%]  bg-white pb-0 flex flex-col rounded-lg'>
+                <div className=' h-auto w-[43%]  bg-white pb-0 flex flex-col rounded-lg'>
 
                     <SimpleImageSlider
-                        width={658}
+                        width={624}
                         height={400}
                         images={Netfliximages}
                         showNavs={true}

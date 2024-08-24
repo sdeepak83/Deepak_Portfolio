@@ -5,10 +5,10 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 const Navbar = () => {
     return (
 
-        <div className='   flex items-center justify-between mx-auto max-w-7xl h-16 text-white py-12   '>
-            <img src={logo} className=' h-28' alt="Logo Image" />
+        <div className='   flex items-center justify-between mx-auto max-w-full h-16 text-white py-12   '>
+            <img src={logo} className=' h-28 md:h-16 sm:h-12' alt="Logo Image" />
 
-            <div className=' flex gap-10 font-semibold'>
+            <div className=' flex md:gap-8 sm:gap-5 gap-10 font-semibold'>
 
 
                 <a to="https://github.com/sdeepak83" target='_blank ' className=' hover:text-purple-800 cursor-pointer'><h1 className=' text-xl'><FaGithub /></h1></a>

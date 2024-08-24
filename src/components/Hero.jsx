@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import bgPic from '../assets/bgPic.jpg'
+import DeepakResume from '../assets/Deepaks-Resume.pdf'
 import { ExampleComponent } from './TypeAnimation'
 const Hero = () => {
     return (
@@ -13,7 +14,7 @@ const Hero = () => {
                 <div className=' py-8  text-2xl leading-lose w-[40%] font-Sevillana mb-8'>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer. </div>
 
 
-                <a href="" className=' bg-blue-600 px-20 py-3 rounded-md text-xl' download>
+                <a href={DeepakResume} className=' bg-blue-600 px-20 py-3 rounded-md text-xl' download>
                     resume
                 </a>
             </div>
