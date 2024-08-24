@@ -22,7 +22,7 @@ export const About = () => {
 
                 <div className=' text-xl  font-Libr'>
                     <div>
-                        Hi Everyone My name is Deepak Singh I completed b.tech in june 2023. with a passion for web development. Creative M.E.R.N. Stack Developer with Proficiency in HTML, CSS, JavaScript and Library/Frameworks like React-JS, Express-JS (MongoDB as database) & Tailwind CSS. I have experience in Full stack development and constantly learning and expanding my skill set. During my studies, I completed several projects that involved creating responsive and user-friendly websites.
+                        Hi Everyone My name is Deepak Singh I completed my b.tech(Cs) in june 2024. with a passion for web development. Creative M.E.R.N. Stack Developer with Proficiency in HTML, CSS, JavaScript and Library/Frameworks like React-JS, Express-JS (MongoDB as database) & Tailwind CSS. I have experience in Full stack development and constantly learning and expanding my skill set. During my studies, I completed several projects that involved creating responsive and user-friendly websites.
                     </div>
 
                     <div className=' py-12'>
